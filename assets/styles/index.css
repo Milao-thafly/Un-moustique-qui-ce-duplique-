@@ -1,0 +1,33 @@
+@import "main.css";
+
+
+/*!!!!!!!!!!!!!!!SECTION BANNERFD¨!!!!!!!!!!!!!!*/
+
+@media screen and (min-width: 1280px) {
+    .background_image{
+        background-image: url("../images/banner-hero.jpeg");
+        height: calc(100vh - 86px);
+        background-size: cover;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+}
+
+.background_imagebn{
+    padding: 2em;
+    margin-right: 10%;
+    background: rgba(255,255,255, 0.5);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(5px) ;
+    -webkit-backdrop-filter: blur(5px);
+
+}
+.background_imagebn .separator{
+    border: none;
+    border-top: 1px solid var(--secondary);
+    margin-bottom: 10px;
+}
+
+
