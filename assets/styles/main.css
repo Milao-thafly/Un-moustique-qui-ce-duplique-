@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Fooba";
+    src: url("../fonts/Foobar_Pro-Regular.woff") format("woff");
+}
+
+:root {
+    --primary: #2abfc4;
+    --border-radius: 8px;
+    --secondary: #B5D5C5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Fooba";
+}
+h1{
+    font-size: 2,7rem;
+}
+
+h2{
+    font-size: 2,4rem
+}
+
+h3{
+    font-size: 2rem 
+}
+
+/************************ HEADER **************************/
+.navbar {
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999;
+}
+
+.navbar-content {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
